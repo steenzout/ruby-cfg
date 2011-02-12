@@ -1,0 +1,14 @@
+**/.rakeTasks
+**/**/*.tch
+**/Gemfile.lock
+**/**/development.yaml
+**/**/production.yaml
+**/*.gem
+**/log/*.log
+**/.rakeTasks
+**/**/*.tch
+**/Gemfile.lock
+**/**/development.yaml
+**/**/production.yaml
+**/*.gem
+**/log/*.log
