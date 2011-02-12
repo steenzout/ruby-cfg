@@ -5,11 +5,4 @@
 **/log/*.log
 
 config/development.yaml
-config/production.yaml**/.rakeTasks
-
-**/**/*.tch
-**/Gemfile.lock
-
-**/*.gem
-**/log/*.log
-
+config/production.yaml
