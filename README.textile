@@ -24,7 +24,7 @@ h2. usage
 require 'steenzout-cfg'
 
 # load the configuration
-Steenzout::ConfigurationManager.load 'configuration.yaml'</code></pre>
+Steenzout::ConfigurationManager.load 'configuration.yaml'
 
 # access a specific gem configuration
 config = Steenzout::ConfigurationManager.configuration_for_gem 'steenzout-cfg'</code></pre>
