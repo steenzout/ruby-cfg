@@ -3,7 +3,7 @@ require 'rake'
 spec = Gem::Specification.new do |s|
 
   s.name         = 'steenzout-cfg'
-  s.version      = '1.0.0'
+  s.version      = '1.0.2'
 
   s.authors      = ['steenzout']
 
