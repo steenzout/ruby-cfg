@@ -1,0 +1,11 @@
+# Changelog format must be
+# * [dow mon dd yyyy] [packager] [version]
+#    -list of changes
+#
+#
+#
+Thu Mar 17 2011 steenzout 1.0.2
+    - moved from class variables to class instance variables
+
+Sat Feb 12 2011 steenzout 1.0.0
+    - Steenzout.ConfigurationManager implementation

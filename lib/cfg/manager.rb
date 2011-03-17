@@ -3,8 +3,8 @@ module Steenzout
   # Class to hold gem configurations.
   class ConfigurationManager
 
-    @@loaded_configurations = {}
-    @@configurations = nil
+    @loaded_configurations = {}
+    @configurations = nil
 
     # Loads the configuration from the given file.
     # As convention, the configuration file should have as top symbol the gem name.
@@ -23,13 +23,13 @@ module Steenzout
 
       raise ArgumentError, "File #{filename} does not exist!" if !File.exist? filename
 
-      if @@configurations.nil?
+      if @configurations.nil?
         # load configuration
-        @@configurations = YAML.load_file(filename)
+        @configurations = YAML.load_file(filename)
       else
         # merge existing configurations
         YAML.load_file(filename).each {|key, value|
-          @@configurations[key] = value
+          @configurations[key] = value
         }
       end
 
@@ -44,7 +44,7 @@ module Steenzout
     # @param name: the name of the gem.
     #
     def self.configuration_for_gem name
-      @@configurations[:"#{name}"]
+      @configurations[:"#{name}"]
     end
 
   end
