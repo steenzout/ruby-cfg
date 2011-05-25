@@ -1,4 +1,0 @@
-h1. Changelog
-
-* [12 Feb 2010 2347][steenzout]
-   - Steenzout.ConfigurationManager implementation
