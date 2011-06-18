@@ -6,6 +6,7 @@ spec = Gem::Specification.new do |s|
   s.version      = '1.0.4'
 
   s.authors      = ['steenzout']
+  s.email        = ['steenzout@ymail.com']
 
   s.platform     = Gem::Platform::RUBY
 
