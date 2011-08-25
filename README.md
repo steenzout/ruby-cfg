@@ -7,14 +7,13 @@ steenzout-cfg is a gem to manage configurations.
 
 On your YAML configuration files, the gem name should be the first element.
 
-<pre><code># sample.yaml
-gem1:
+<pre><code>gem1:
   (...)
-    property: value
+  property: value
 
 gem2:
   (...)
-    property: value
+  property: value
 </pre><code>
 
 
