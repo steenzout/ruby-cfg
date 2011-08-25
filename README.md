@@ -14,7 +14,8 @@ gem1:
 
 gem2:
   (...)
-    property: value</pre><code>
+    property: value
+</pre><code>
 
 
 ## usage
