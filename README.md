@@ -10,7 +10,7 @@ On your YAML configuration files, the gem name should be the first element.
 <pre><code># sample.yaml
 gem1:
   (...)
-    :property: value
+    property: value
 
 gem2:
   (...)
