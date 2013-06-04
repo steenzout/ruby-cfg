@@ -1,5 +1,7 @@
 # steenzout-cfg
 
+[![Code Climate](https://codeclimate.com/github/steenzout/steenzout-cfg.png)](https://codeclimate.com/github/steenzout/steenzout-cfg)
+
 steenzout-cfg is a gem to manage configurations.
 
 
