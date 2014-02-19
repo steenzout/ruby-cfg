@@ -30,3 +30,6 @@ Steenzout::ConfigurationManager.load 'configuration.yaml'
 
 # access a specific gem configuration
 config = Steenzout::ConfigurationManager.configuration_for_gem 'steenzout-cfg'</code></pre>
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/steenzout/steenzout-cfg/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
